@@ -1,0 +1,380 @@
+
+@startuml
+left to right direction
+
+skinparam  shadowing false
+skinparam component{
+ backgroundColor lightGrey
+ borderColor black
+}
+skinparam rectangle {
+ backgroundColor white
+ borderColor white
+ fontSize 11
+}
+
+package "VisibilityControlSPA"{
+rectangle DATAELEM1
+rectangle DATAELEM2
+rectangle DATAELEM3
+rectangle DATAELEM4
+rectangle DATAELEM5
+rectangle DATAELEM6
+rectangle DATAELEM7
+rectangle DATAELEM8
+rectangle DATAELEM9
+rectangle DATAELEM10
+rectangle DATAELEM11
+rectangle DATAELEM12
+rectangle DATAELEM13
+rectangle DATAELEM14
+rectangle DATAELEM15
+rectangle DATAELEM16
+rectangle DATAELEM17
+rectangle DATAELEM18
+rectangle DATAELEM19
+rectangle DATAELEM20
+rectangle DATAELEM21
+rectangle DATAELEM22
+rectangle DATAELEM23
+rectangle DATAELEM24
+rectangle DATAELEM25
+rectangle DATAELEM26
+rectangle DATAELEM27
+rectangle DATAELEM28
+rectangle DATAELEM29
+rectangle DATAELEM30
+rectangle DATAELEM31
+rectangle DATAELEM32
+rectangle DATAELEM33
+rectangle DATAELEM34
+rectangle DATAELEM35
+rectangle DATAELEM36
+rectangle DATAELEM37
+rectangle DATAELEM38
+rectangle DATAELEM39
+rectangle DATAELEM40
+rectangle DATAELEM41
+rectangle DATAELEM42
+rectangle DATAELEM43
+rectangle DATAELEM44
+rectangle DATAELEM45
+rectangle DATAELEM46
+rectangle DATAELEM47
+rectangle DATAELEM48
+rectangle DATAELEM49
+rectangle DATAELEM50
+rectangle DATAELEM51
+rectangle DATAELEM52
+rectangle DATAELEM53
+rectangle DATAELEM54
+rectangle DATAELEM55
+rectangle DATAELEM56
+rectangle DATAELEM57
+rectangle DATAELEM58
+rectangle DATAELEM59
+rectangle DATAELEM60
+rectangle DATAELEM61
+rectangle DATAELEM62
+rectangle DATAELEM63
+rectangle DATAELEM64
+rectangle DATAELEM65
+rectangle DATAELEM66
+rectangle DATAELEM67
+rectangle DATAELEM68
+rectangle DATAELEM69
+rectangle DATAELEM70
+rectangle DATAELEM71
+rectangle DATAELEM72
+rectangle DATAELEM73
+rectangle DATAELEM74
+rectangle DATAELEM75
+rectangle DATAELEM2
+rectangle DATAELEM28
+rectangle DATAELEM40
+rectangle DATAELEM69
+rectangle DATAELEM29
+rectangle DATAELEM50
+rectangle DATAELEM55
+rectangle DATAELEM76
+rectangle DATAELEM14
+rectangle DATAELEM44
+rectangle DATAELEM77
+rectangle DATAELEM68
+rectangle DATAELEM67
+rectangle DATAELEM65
+rectangle DATAELEM20
+rectangle DATAELEM22
+rectangle DATAELEM78
+rectangle DATAELEM79
+rectangle DATAELEM80
+rectangle DATAELEM81
+rectangle DATAELEM3
+rectangle DATAELEM82
+rectangle DATAELEM83
+rectangle DATAELEM84
+rectangle DATAELEM85
+rectangle DATAELEM42
+rectangle DATAELEM76
+rectangle DATAELEM74
+rectangle DATAELEM52
+rectangle DATAELEM57
+rectangle DATAELEM23
+rectangle DATAELEM40
+rectangle DATAELEM47
+rectangle DATAELEM49
+rectangle DATAELEM77
+rectangle DATAELEM31
+rectangle DATAELEM11
+rectangle DATAELEM26
+rectangle DATAELEM78
+rectangle DATAELEM86
+rectangle DATAELEM4
+rectangle DATAELEM73
+rectangle DATAELEM3
+rectangle DATAELEM39
+rectangle DATAELEM46
+rectangle DATAELEM66
+rectangle DATAELEM86
+rectangle DATAELEM16
+rectangle DATAELEM24
+rectangle DATAELEM87
+rectangle DATAELEM88
+rectangle DATAELEM89
+rectangle DATAELEM90
+rectangle DATAELEM91
+rectangle DATAELEM92
+rectangle DATAELEM93
+rectangle DATAELEM94
+rectangle DATAELEM51
+rectangle DATAELEM58
+rectangle DATAELEM9
+rectangle DATAELEM76
+rectangle DATAELEM54
+rectangle DATAELEM65
+rectangle DATAELEM69
+rectangle DATAELEM71
+rectangle DATAELEM78
+rectangle DATAELEM44
+rectangle DATAELEM22
+rectangle DATAELEM2
+rectangle DATAELEM50
+rectangle DATAELEM8
+rectangle DATAELEM20
+rectangle DATAELEM14
+rectangle DATAELEM68
+rectangle DATAELEM12
+rectangle DATAELEM95
+rectangle DATAELEM3
+rectangle DATAELEM96
+rectangle DATAELEM97
+rectangle DATAELEM48
+rectangle DATAELEM91
+rectangle DATAELEM98
+rectangle DATAELEM99
+rectangle DATAELEM100
+rectangle DATAELEM85
+rectangle DATAELEM101
+rectangle DATAELEM102
+rectangle DATAELEM47
+rectangle DATAELEM103
+rectangle DATAELEM1
+rectangle DATAELEM104
+rectangle DATAELEM79
+rectangle DATAELEM105
+rectangle DATAELEM83
+rectangle DATAELEM106
+rectangle DATAELEM107
+rectangle DATAELEM81
+rectangle DATAELEM108
+rectangle DATAELEM75
+rectangle DATAELEM84
+rectangle DATAELEM90
+rectangle DATAELEM82
+rectangle DATAELEM109
+rectangle DATAELEM110
+
+[<size:13>LC1] -up-( DATAELEM1     
+[<size:13>LC3] -up-( DATAELEM2     
+[<size:13>LC3] -up-( DATAELEM3     
+[<size:13>LC3] -up-( DATAELEM4     
+[<size:13>LC3] -up-( DATAELEM5     
+[<size:13>LC3] -down-0 DATAELEM6
+[<size:13>LC3] -up-( DATAELEM7     
+[<size:13>LC3] -down-0 DATAELEM8
+[<size:13>LC3] -up-( DATAELEM9     
+[<size:13>LC3] -up-( DATAELEM10     
+[<size:13>LC3] -down-0 DATAELEM11
+[<size:13>LC3] -up-( DATAELEM12     
+[<size:13>LC3] -up-( DATAELEM13     
+[<size:13>LC3] -up-( DATAELEM14     
+[<size:13>LC3] -up-( DATAELEM15     
+[<size:13>LC3] -down-0 DATAELEM16
+[<size:13>LC3] -up-( DATAELEM17     
+[<size:13>LC3] -down-0 DATAELEM18
+[<size:13>LC3] -up-( DATAELEM19     
+[<size:13>LC3] -up-( DATAELEM20     
+[<size:13>LC3] -down-0 DATAELEM21
+[<size:13>LC3] -up-( DATAELEM22     
+[<size:13>LC3] -up-( DATAELEM23     
+[<size:13>LC3] -up-( DATAELEM24     
+[<size:13>LC3] -up-( DATAELEM25     
+[<size:13>LC3] -down-0 DATAELEM26
+[<size:13>LC3] -up-( DATAELEM27     
+[<size:13>LC3] -down-0 DATAELEM28
+[<size:13>LC3] -down-0 DATAELEM29
+[<size:13>LC3] -down-0 DATAELEM30
+[<size:13>LC3] -down-0 DATAELEM31
+[<size:13>LC3] -up-( DATAELEM32     
+[<size:13>LC3] -down-0 DATAELEM33
+[<size:13>LC3] -up-( DATAELEM34     
+[<size:13>LC3] -down-0 DATAELEM35
+[<size:13>LC3] -down-0 DATAELEM36
+[<size:13>LC3] -up-( DATAELEM37     
+[<size:13>LC3] -down-0 DATAELEM38
+[<size:13>LC3] -down-0 DATAELEM39
+[<size:13>LC3] -up-( DATAELEM40     
+[<size:13>LC3] -down-0 DATAELEM41
+[<size:13>LC3] -up-( DATAELEM42     
+[<size:13>LC3] -down-0 DATAELEM43
+[<size:13>LC3] -down-0 DATAELEM44
+[<size:13>LC3] -up-( DATAELEM45     
+[<size:13>LC3] -down-0 DATAELEM46
+[<size:13>LC3] -up-( DATAELEM47     
+[<size:13>LC3] -up-( DATAELEM48     
+[<size:13>LC3] -up-( DATAELEM49     
+[<size:13>LC3] -up-( DATAELEM50     
+[<size:13>LC3] -down-0 DATAELEM51
+[<size:13>LC3] -up-( DATAELEM52     
+[<size:13>LC3] -up-( DATAELEM53     
+[<size:13>LC3] -down-0 DATAELEM54
+[<size:13>LC3] -up-( DATAELEM55     
+[<size:13>LC3] -up-( DATAELEM56     
+[<size:13>LC3] -up-( DATAELEM57     
+[<size:13>LC3] -down-0 DATAELEM58
+[<size:13>LC3] -up-( DATAELEM59     
+[<size:13>LC3] -up-( DATAELEM60     
+[<size:13>LC3] -up-( DATAELEM61     
+[<size:13>LC3] -down-0 DATAELEM62
+[<size:13>LC3] -up-( DATAELEM63     
+[<size:13>LC3] -up-( DATAELEM64     
+[<size:13>LC3] -down-0 DATAELEM65
+[<size:13>LC3] -up-( DATAELEM66     
+[<size:13>LC3] -up-( DATAELEM67     
+[<size:13>LC3] -down-0 DATAELEM68
+[<size:13>LC3] -up-( DATAELEM69     
+[<size:13>LC3] -up-( DATAELEM70     
+[<size:13>LC3] -up-( DATAELEM71     
+[<size:13>LC3] -up-( DATAELEM72     
+[<size:13>LC3] -down-0 DATAELEM73
+[<size:13>LC3] -up-( DATAELEM74     
+[<size:13>LC5] -up-( DATAELEM75     
+[<size:13>LC6] -up-( DATAELEM2     
+[<size:13>LC6] -up-( DATAELEM28     
+[<size:13>LC6] -down-0 DATAELEM40
+[<size:13>LC6] -down-0 DATAELEM69
+[<size:13>LC6] -up-( DATAELEM29     
+[<size:13>LC6] -down-0 DATAELEM50
+[<size:13>LC6] -down-0 DATAELEM55
+[<size:13>LC6] -up-( DATAELEM76     
+[<size:13>LC6] -down-0 DATAELEM14
+[<size:13>LC6] -up-( DATAELEM44     
+[<size:13>LC6] -up-( DATAELEM77     
+[<size:13>LC6] -up-( DATAELEM68     
+[<size:13>LC6] -down-0 DATAELEM67
+[<size:13>LC6] -up-( DATAELEM65     
+[<size:13>LC6] -up-( DATAELEM20     
+[<size:13>LC6] -down-0 DATAELEM22
+[<size:13>LC6] -up-( DATAELEM78     
+[<size:13>LC7] -up-( DATAELEM79     
+[<size:13>LC7] -up-( DATAELEM80     
+[<size:13>LC7] -down-0 DATAELEM81
+[<size:13>LC7] -up-( DATAELEM3     
+[<size:13>LC7] -down-0 DATAELEM82
+[<size:13>LC8] -up-( DATAELEM83     
+[<size:13>LC9] -up-( DATAELEM84     
+[<size:13>LC9] -down-0 DATAELEM85
+[<size:13>LC10] -down-0 DATAELEM42
+[<size:13>LC10] -down-0 DATAELEM76
+[<size:13>LC10] -up-( DATAELEM74     
+[<size:13>LC10] -down-0 DATAELEM52
+[<size:13>LC10] -down-0 DATAELEM57
+[<size:13>LC10] -down-0 DATAELEM23
+[<size:13>LC10] -up-( DATAELEM40     
+[<size:13>LC10] -up-( DATAELEM47     
+[<size:13>LC10] -down-0 DATAELEM49
+[<size:13>LC10] -down-0 DATAELEM77
+[<size:13>LC10] -up-( DATAELEM31     
+[<size:13>LC10] -up-( DATAELEM11     
+[<size:13>LC10] -up-( DATAELEM26     
+[<size:13>LC10] -down-0 DATAELEM78
+[<size:13>LC10] -down-0 DATAELEM86
+[<size:13>LC10] -down-0 DATAELEM4
+[<size:13>LC10] -up-( DATAELEM73     
+[<size:13>LC10] -up-( DATAELEM3     
+[<size:13>LC11] -up-( DATAELEM39     
+[<size:13>LC12] -up-( DATAELEM46     
+[<size:13>LC12] -up-( DATAELEM66     
+[<size:13>LC12] -up-( DATAELEM86     
+[<size:13>LC12] -up-( DATAELEM16     
+[<size:13>LC13] -down-0 DATAELEM24
+[<size:13>LC14] -down-0 DATAELEM87
+[<size:13>LC14] -down-0 DATAELEM88
+[<size:13>LC14] -down-0 DATAELEM89
+[<size:13>LC15] -up-( DATAELEM90     
+[<size:13>LC15] -down-0 DATAELEM91
+[<size:13>LC16] -down-0 DATAELEM92
+[<size:13>LC16] -down-0 DATAELEM93
+[<size:13>LC16] -down-0 DATAELEM94
+[<size:13>LC17] -up-( DATAELEM51     
+[<size:13>LC17] -up-( DATAELEM58     
+[<size:13>LC17] -down-0 DATAELEM9
+[<size:13>LC17] -up-( DATAELEM76     
+[<size:13>LC17] -up-( DATAELEM54     
+[<size:13>LC17] -up-( DATAELEM65     
+[<size:13>LC17] -up-( DATAELEM69     
+[<size:13>LC17] -down-0 DATAELEM71
+[<size:13>LC17] -up-( DATAELEM78     
+[<size:13>LC17] -up-( DATAELEM44     
+[<size:13>LC17] -up-( DATAELEM22     
+[<size:13>LC17] -down-0 DATAELEM2
+[<size:13>LC17] -up-( DATAELEM50     
+[<size:13>LC17] -up-( DATAELEM8     
+[<size:13>LC17] -down-0 DATAELEM20
+[<size:13>LC17] -up-( DATAELEM14     
+[<size:13>LC17] -up-( DATAELEM68     
+[<size:13>LC18] -up-( DATAELEM12     
+[<size:13>LC18] -up-( DATAELEM95     
+[<size:13>LC18] -up-( DATAELEM3     
+[<size:13>LC18] -up-( DATAELEM96     
+[<size:13>LC18] -up-( DATAELEM97     
+[<size:13>LC18] -up-( DATAELEM48     
+[<size:13>LC18] -up-( DATAELEM91     
+[<size:13>LC18] -down-0 DATAELEM98
+[<size:13>LC18] -up-( DATAELEM99     
+[<size:13>LC18] -up-( DATAELEM100     
+[<size:13>LC18] -up-( DATAELEM85     
+[<size:13>LC18] -down-0 DATAELEM101
+[<size:13>LC18] -up-( DATAELEM102     
+[<size:13>LC18] -up-( DATAELEM47     
+[<size:13>LC18] -down-0 DATAELEM103
+[<size:13>LC18] -down-0 DATAELEM1
+[<size:13>LC18] -down-0 DATAELEM104
+[<size:13>LC18] -up-( DATAELEM79     
+[<size:13>LC18] -down-0 DATAELEM105
+[<size:13>LC18] -down-0 DATAELEM83
+[<size:13>LC18] -up-( DATAELEM106     
+[<size:13>LC18] -down-0 DATAELEM107
+[<size:13>LC18] -up-( DATAELEM81     
+[<size:13>LC18] -up-( DATAELEM108     
+[<size:13>LC18] -down-0 DATAELEM75
+[<size:13>LC18] -down-0 DATAELEM84
+[<size:13>LC18] -down-0 DATAELEM90
+[<size:13>LC18] -up-( DATAELEM82     
+[<size:13>LC18] -up-( DATAELEM109     
+[<size:13>LC18] -down-0 DATAELEM110
+}
+
+
+@enduml
+
